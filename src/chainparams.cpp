@@ -125,13 +125,13 @@ public:
 
 	// NOTE: MODIFIED THIS TO 0.0.0.0
         vSeeds.push_back(CDNSSeedData("1",  "34.225.25.154"));
-	vSeeds.push_back(CDNSSeedData("2",  "52.45.189.6"));
-	vSeeds.push_back(CDNSSeedData("3",  "34.232.249.188"));
-	vSeeds.push_back(CDNSSeedData("4",  "34.231.228.73"));
-	vSeeds.push_back(CDNSSeedData("5",  "34.239.99.171"));
-	vSeeds.push_back(CDNSSeedData("6",  "18.218.0.160"));
-	vSeeds.push_back(CDNSSeedData("7",  "13.59.189.252"));
-	vSeeds.push_back(CDNSSeedData("8",  "52.15.218.190"));
+      	vSeeds.push_back(CDNSSeedData("2",  "52.45.189.6"));
+      	vSeeds.push_back(CDNSSeedData("3",  "34.232.249.188"));
+      	vSeeds.push_back(CDNSSeedData("4",  "34.231.228.73"));
+      	vSeeds.push_back(CDNSSeedData("5",  "34.239.99.171"));
+      	vSeeds.push_back(CDNSSeedData("6",  "18.218.0.160"));
+      	vSeeds.push_back(CDNSSeedData("7",  "13.59.189.252"));
+      	vSeeds.push_back(CDNSSeedData("8",  "52.15.218.190"));
 
 	convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
